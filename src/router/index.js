@@ -1,12 +1,10 @@
 import React from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import LoginForm from '../components/LoginForm';
-import TestForm from '../components/Test';
 
 const RootStack = createStackNavigator(
   {
-    Home: LoginForm,
-    Test: TestForm
+    Home: LoginForm
   },
   {
     initialRouteName: 'Home',
